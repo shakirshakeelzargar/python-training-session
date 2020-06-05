@@ -17,7 +17,7 @@ def invoice_bill(i_no, d):
     storename = "FreshFruits.com"
     I_Name = "Apple"
     qty=34
-    up=50,
+    up=50
     amt=1500
     dis="10%"
     pamt=amt-(amt*10//100)
@@ -28,7 +28,7 @@ def invoice_bill(i_no, d):
     print("------------------------------------------------------------------------")
     print("Item Name"+"     "+"Qty"+"     "+"Unit Price"+"     "+"Amount")
     print("------------------------------------------------------------------------")
-    print(I_Name+"     "+str(qty)+"     "+str(up)+"     "+str(amt))
+    print(I_Name+"          "+str(qty)+"          "+str(up)+"         "+str(amt))
     print("------------------------------------------------------------------------")
     print("Amount :"+" "+str(amt)+"\n"+"Discount :"+" "+dis+"\n"+"Payable Amount :"+" "+str(pamt))
     print("=========================Thanks you for Shopping========================")
