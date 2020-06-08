@@ -12,6 +12,7 @@ N=1
 ch = ''.join(random.choices(string.ascii_lowercase, k = N)) 
 num=random.randint(1,1000)
 invoice_no=ch+str(num)
+
 #writing a funtion to print online shopping details
 def invoice_bill(i_no, d):
     storename = "FreshFruits.com"
@@ -21,17 +22,19 @@ def invoice_bill(i_no, d):
     amt=1500
     dis="10%"
     pamt=amt-(amt*10//100)
-    print("========================================================================")
+    s=" "*25
+    s2=" "*10
+    print("="*62)
     print(storename)
-    print("==========================Invoice Bill==================================")
-    print("Invoice No :"+" "+str(i_no)+"                                "+"Date :"+" "+str(d))
+    print("="*25+"Invoice Bill"+"="*25)
+    print(f"Invoice No :{i_no}{s}Date : {d}")
+    print("-"*62)
+    print(f"Item Name{s2}Qty{s2}Unit Price{s2}Amount")
+    print("-"*62)
+    print(f"{I_Name}  {s2}  {qty}  {s2}  {up}  {s2}  {amt}")
     print("------------------------------------------------------------------------")
-    print("Item Name"+"     "+"Qty"+"     "+"Unit Price"+"     "+"Amount")
-    print("------------------------------------------------------------------------")
-    print(I_Name+"          "+str(qty)+"          "+str(up)+"         "+str(amt))
-    print("------------------------------------------------------------------------")
-    print("Amount :"+" "+str(amt)+"\n"+"Discount :"+" "+dis+"\n"+"Payable Amount :"+" "+str(pamt))
-    print("=========================Thanks you for Shopping========================")
+    print(f"Amount : {amt}\nDiscount : {dis}\nPayable Amount : {pamt}")
+    print("="*25+"Thanks you for Shopping"+"="*25)
 invoice_bill(invoice_no, today)
 
 
