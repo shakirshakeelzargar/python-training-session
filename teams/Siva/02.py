@@ -49,5 +49,15 @@ def reverseNumber(n):
         print(f'Error occured: {e}')
     finally:
         print('Execution Done.')
-# reverseNumber('12345')
+''' def reverseNumber(n):
+    try:
+        inputNumberAsString = str(n)
+        result = inputNumberAsString[::-1]
+        print(f'Reversed Number: {result}')
+    except Exception as ex:
+        print(f'ERROR: {ex}')
+    finally:
+        print('Execution Done.') '''
+
+reverseNumber('12345')
   
