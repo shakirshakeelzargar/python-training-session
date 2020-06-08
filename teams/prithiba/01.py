@@ -20,7 +20,7 @@ print("^ "*50)
 amount=(unit_price1*q1)+(unit_price2*q2)
 print('Total Amount   : $',amount)
 if(amount>500):
- Discount=amount*(5/100);
+ Discount=amount*(5/100)
  print("Discount       : $",Discount)
 print("Payable Amount : $",amount-Discount)
 print(" "*35,"*"*5,"Thank U","*"*5, " "*10,"Contact Us : www.freshfruits.com")
