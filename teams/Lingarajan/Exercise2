@@ -1,0 +1,45 @@
+i=1
+try :
+    if i>0:
+        while True:  
+            print(i)  
+            i = i + 1  
+            if(i > 10):  
+                break   
+except Exception as e:
+    print(f"Error has occured : {e}")
+
+
+a,b,c,d=15,25,5,35
+x = (a if (a > b and a > c and a > d)  
+         else (b if (b > a and b>c and b > d)  
+            else (c if c > a and c>b and c>d else d))) 
+print(f"Greatest number is {x}")
+
+
+a=10
+b=100
+for n in range(a,b):  
+        if n > 1:  
+            for i in range(2,n):  
+                if (n % i) == 0:  
+                    break  
+            else:  
+                print(n) 
+
+
+
+ls=[10,20,5,50,75]
+print(f"Smallest number {min(ls)}")
+print(f"Smallest number {max(ls)}")
+
+
+d={ "fruits":["mango","apple","banana"],
+    "countries":["India","Australia","Bangladesh"]
+}
+fr=d.get("fruits",None)
+ct=d.get("countries", None)
+fr=fr.sort()
+ct=ct.sort()
+print(d)
+
