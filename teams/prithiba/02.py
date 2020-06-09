@@ -2,7 +2,7 @@
 x=49
 try:
     if(x%2!=0):
-        raise exception("Note:")
+        raise Exception("Note:")
 except:
     print("Odd Number")
 else:
@@ -12,7 +12,7 @@ else:
 a,b,c,d =22,22,22,22
 try:
     if(a==b or b==c or c==d or a==c or a==d or d==b or a==d):
-        raise exception("Problem:")
+        raise Exception("Problem:")
     elif(a<b and a<c and a<d):
         print("a - lowest Number")
     elif(b<a and b<c and b<d):
@@ -32,7 +32,7 @@ try:
         n2=n2*10+p
         n1=n1//10
     if(n2==0):
-          raise exception("Negative Value")
+          raise Exception("Negative Value")
 except:
     print("Invalid")
 else:
