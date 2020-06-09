@@ -9,5 +9,5 @@
 * For Loops
 * While Loops
 * Ternary Operator
-List comprehension
+* List comprehension
 
