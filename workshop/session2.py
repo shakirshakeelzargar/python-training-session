@@ -114,6 +114,11 @@ print(x)
 print(y)
 print(z)
 
+i=1234
+str_i=str(i)
+rev_str=str_i[::-1]
+print(int(rev_str))
+
 
 
 
