@@ -17,6 +17,7 @@ def arithmetic(numberOne, numberTwo, operator):
 
 print(arithmetic(2,3,'+'))
 
+
 #Function for finding the area using class
 
 class area:
