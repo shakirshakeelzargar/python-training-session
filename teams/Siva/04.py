@@ -1,10 +1,10 @@
 # Write a python function which takes a list as an argument and returns the sum of elements in the list
 def addElementInList(inputList):
     try:
-        sum, ls = 0, []
+        total, ls = 0, []
         for el in inputList:
-            sum += el
-        ls.append(sum)
+            total += el
+        ls.append(total)
         print(f'Result : {ls}')
     except Exception as e:
         print(f'Error occured: {e}')
