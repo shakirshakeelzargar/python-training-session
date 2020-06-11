@@ -3,13 +3,13 @@
 
 - [x] Variables and Strings
 - [x] Numbers, Math, and Comments
-- [ ] Booleans and Conditionals
-- [ ] Loop Constructs
-- [ ] Functions
-- [ ] Lists, Dictionaries
-- [ ] Tuples
-- [ ] Functions
-- [ ] Classes
+- [x] Booleans and Conditionals
+- [x] Loop Constructs
+- [x] Functions
+- [x] Lists, Dictionaries
+- [x] Tuples
+- [x] Functions
+- [x] Classes
 - [ ] Modules
 - [ ] Packages
 - [ ] Working with Native Modules

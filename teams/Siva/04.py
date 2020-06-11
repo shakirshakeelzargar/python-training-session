@@ -10,8 +10,9 @@ def addElementInList(inputList):
         print(f'Error occured: {e}')
     finally:
         print('Execution Done.')
+        #print(sum([1,2,3,4]))
 
-# addElementInList([1,2,3,4,5])
+addElementInList([1,2,3,4,5])
 
 # Create a function which performs the basic arithmatic operations(+,-,/,*). It takes three inputs, num1, num2 and operator symbol as string 
 
