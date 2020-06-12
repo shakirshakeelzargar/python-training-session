@@ -6,6 +6,7 @@ days_brown= (brown_specific_date - current_date).days
 days_normal=(normal_specific_date - current_date).days
 Grocery_list= []
 finished = False
+print("Welcome to Grocery_list")
 while not finished:
     item= input('Enter an item : ')
     if len(item) == 0:
@@ -18,10 +19,16 @@ while not finished:
              
              if(type_bread=="brown" and days_brown>5 and qty_brownBread>0):
                 qty_brownBread = qty_brownBread-4
+                Grocery_list.append(item)
+                else:
+                    print("Not Available")
              if(type_bread=="normal" and days_normal>3 and qty_normalBread>0):
                 qty_normalBreadread = qty_normalBread-2
-             buy =" 2 packets of  bread"
-        Grocery_list.append(item)
+                Grocery_list.append(item)
+               
+                else:
+                    print("Not Available")
+Grocery_list.append(item)
 print("Thanks for Shop")
 print()
 Stationary_list= []
