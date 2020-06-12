@@ -14,6 +14,7 @@
 - [x] Packages
 - [ ] Working with Native Modules
 - [ ] File System
+- [ ] Virtual Environment
 - [ ] Requests - HTTP Client
 - [ ] Connecting to External API's
 - [ ] Python and Analytics Basics

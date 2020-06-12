@@ -28,3 +28,7 @@ class area:
 
 area.getArea()
 
+
+
+def employee(empId):
+    
