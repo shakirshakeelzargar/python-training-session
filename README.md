@@ -10,8 +10,8 @@
 - [x] Tuples
 - [x] Functions
 - [x] Classes
-- [ ] Modules
-- [ ] Packages
+- [x] Modules
+- [x] Packages
 - [ ] Working with Native Modules
 - [ ] File System
 - [ ] Requests - HTTP Client
