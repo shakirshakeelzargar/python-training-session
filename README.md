@@ -15,8 +15,8 @@
 - [x] Working with Native Modules
 - [x] File System
 - [x] Virtual Environment
-- [ ] Requests - HTTP Client
-- [ ] Connecting to External API's
+- [x] Requests - HTTP Client
+- [x] Connecting to External API's
 - [ ] Python and Analytics Basics
 - [ ] Working with Pandas, NumPy & Jupyter Notebooks
 - [ ] Exercises & Assessments

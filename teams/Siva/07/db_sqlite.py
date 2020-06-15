@@ -1,6 +1,6 @@
 import json
 import sqlite3
-# import pandas as pd
+import pandas as pd
 # from pandas import DataFrame
 
 traffic = json.load(open('gandhi.json'))
@@ -15,7 +15,7 @@ c.execute('''create table gandhi
           content text,
           author text,
           length integer)''')
-          
+
 for el in traffic['results']:
     c.execute('insert into gandhi values (?, ?, ?, ?)',
     [el['_id'], el['content'], el['author'], el['length']])
